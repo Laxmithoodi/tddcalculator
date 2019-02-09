@@ -7,7 +7,7 @@ public class UserOperations {
         public static int add ( int x, int y){
 
             int result = x + y;
-
+            System.out.println(x+"+"+y+"=");
             return result;
 
         }
@@ -15,7 +15,7 @@ public class UserOperations {
         public static int sub ( int x, int y){
 
             int result = x - y;
-
+            System.out.println(x+"-"+y+"=");
             return result;
 
 
@@ -23,23 +23,25 @@ public class UserOperations {
         public static int mult ( int x, int y){
 
             int result = x * y;
-
+            System.out.println(x+"*"+y+"="+result);
             return result;
         }
         public static int div ( int x, int y){
 
             int result = x / y;
+            System.out.println(x+"/"+y+"="+result);
             return result;
         }
 
-        public double square ( double number){
+        public static double square(double number){
             double sq = Math.pow(number, 2);
 
             return sq;
         }
 
 
-        public double squareroot ( double number){
+        public static double squareroot ( int number){
+
 
             double sqroot = Math.sqrt(number);
 
@@ -48,7 +50,7 @@ public class UserOperations {
         }
 
 
-        public double exponent ( double base, double power){
+        public static double exponent ( double base, double power){
 
             double exp = Math.pow(base, power);
 
@@ -56,13 +58,13 @@ public class UserOperations {
         }
 
 
-        public double inverse ( double number){
+        public static double inverse ( double number){
 
             return (1 / number);
         }
 
 
-        public double inversign ( double number){
+        public static double inversign ( double number){
 
             return (number * -1);
         }
