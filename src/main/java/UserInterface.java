@@ -23,11 +23,13 @@ public class UserInterface {
             System.out.println("Please enter your First number " + i);
             Scanner input = new Scanner(System.in);
             int num1 = input.nextInt();
-            //Second number
-            System.out.println("Please enter Second number " + i);
-            Scanner input2 = new Scanner(System.in);
-            int num2 = input2.nextInt();
-
+            int num2=0;
+            if(OperationType < 5) {
+                //Second number
+                System.out.println("Please enter Second number " + i);
+                Scanner input2 = new Scanner(System.in);
+                num2 = input2.nextInt();
+            }
 
 
 
