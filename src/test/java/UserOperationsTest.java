@@ -9,16 +9,13 @@ public class UserOperationsTest {
 
     UserOperations userOperations;
 
-   @Before
     public void setUp(){
-
        userOperations = new UserOperations();
 
    }
 
 
    @Test
-
    public void add1(){
        //:Given
        int expected = 9;
@@ -173,7 +170,6 @@ public class UserOperationsTest {
 
         //:Then
         assertEquals( actual, expected, 9);
-
 
     }
 }
