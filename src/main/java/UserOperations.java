@@ -4,7 +4,7 @@ public class UserOperations {
 
 
 
-        public static int add ( int x, int y){
+        public static int add( int x, int y){
 
             int result = x + y;
             System.out.println(x+"+"+y+"=");
@@ -12,7 +12,7 @@ public class UserOperations {
 
         }
 
-        public static int sub ( int x, int y){
+        public static int sub( int x, int y){
 
             int result = x - y;
             System.out.println(x+"-"+y+"=");
@@ -20,7 +20,7 @@ public class UserOperations {
 
 
         }
-        public static int mult ( int x, int y){
+        public static int mult( int x, int y){
 
             int result = x * y;
             System.out.println(x+"*"+y+"="+result);
