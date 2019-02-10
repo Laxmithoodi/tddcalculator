@@ -74,14 +74,7 @@ public class UserInterface {
                         case 9:
                             UserOperations.inversign(num3);
                             break;
-
-
-
-
-
-
                     }
-
         }else if(OperationType>9){
             Console.println("Please enter number");
             int num4 = Console.getInteger();

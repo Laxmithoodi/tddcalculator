@@ -13,7 +13,6 @@ public class UserOperations {
     public static String addBin(int x, int y) {
         String result = Integer.toBinaryString(x) + Integer.toBinaryString(y);
 
-
         Console.println(x + " + " + y + " = " + result);
         return result;
     }
@@ -25,7 +24,7 @@ public class UserOperations {
         return result;
     }
 
-    public static int mult(int x, int y) {
+        public static int mult( int x, int y){
 
         int result = x * y;
         Console.println(x + " * " + y + " = " + result);
