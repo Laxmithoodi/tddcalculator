@@ -160,7 +160,7 @@ public class UserOperationsTest {
 
     public void invsign1(){
         //:Given
-        double expected = 9.0;
+        double expected = -4;
 
         UserOperations t1= new UserOperations();
 
