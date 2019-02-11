@@ -4,11 +4,8 @@ public class Scientific {
     public static String IntegerAsBinary(int value) {
         Console.println("Binary value is "+Integer.toBinaryString(value));
         return Integer.toBinaryString(value);
-
     }
-
     public static String IntegerAsOctal(int value) {
-
 
         Console.println("Octal Value is "+ Integer.toOctalString(value));
         return Integer.toOctalString(value);
@@ -57,18 +54,30 @@ public class Scientific {
     }
 
     public static double invCos(double number) {
-        Console.println("Inverse Cosine"+" = "+number);
+        double result = Math.acos(number);
+        Console.println("Inverse Cosine"+" = "+result);
         return Math.acos(number);
     }
     public static double invTan(double number) {
-        double result = Math.atan(number);
-        Console.println("Inverse Tangent"+" = "+result);
-        return result;
+        double invTa = Math.atan(number);
+        Console.println("Inverse Tangent"+" = "+invTa);
+        return Math.toDegrees(invTa);
     }
-    public static double invTanDegrees(double number) {
-        double result =Math.toDegrees(Math.atan(Math.sin(number)));
-        Console.println("Inverse Tangent"+" = "+result);
-        return result;
+    public static double invCosDeg(double number) {
+        double result = Math.acos(number);
+        Console.println("Inverse Cosine"+" = "+Math.toDegrees(result));
+        return Math.acos(number);
+    }
+    public static double invSinDeg(double number) {
+        double invTa = Math.asin(number);
+        Console.println("Inverse Tangent" + " = " + Math.toDegrees(invTa));
+        return Math.toDegrees(invTa);
+    }
+    public static double invTanDeg(double number) {
+        double tangent = Math.atan(number);
+
+        Console.println("Inverse Tangent"+" = "+Math.toDegrees(tangent));
+        return Math.atan(tangent);
     }
 
 }

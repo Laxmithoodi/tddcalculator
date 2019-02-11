@@ -7,6 +7,9 @@ public class Console {
     public static void println(String message) {
         System.out.println(message);
     }
+    public static void printDou(double message) {
+        System.out.println(message);
+    }
 
     public static int getInteger(){
 
